@@ -43,9 +43,9 @@
                 },
                 {
                     "name": "Thrust",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "be0aba00-f558-4c1c-915e-627b1b912d84",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -308,7 +308,7 @@
                 {
                     "name": "",
                     "id": "130f5ef4-badc-4a3a-ba53-654c2de94bdf",
-                    "path": "<Keyboard>/shift",
+                    "path": "<Keyboard>/ctrl",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

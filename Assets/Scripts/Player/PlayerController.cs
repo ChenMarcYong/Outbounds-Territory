@@ -9,10 +9,10 @@ public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    
-    public  InputAction playerControls;
+
+    public InputAction playerControls;
     public float moveSpeed = 25.0f;
-    
+
     public InputActionReference move;
     public InputActionReference ascend;
     public InputActionReference rotate;
@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector3(- moveDirection.x * moveSpeed, ascendSpeed * moveSpeed, - moveDirection.y * moveSpeed) ;
+        rb.velocity = new Vector3(-moveDirection.x * moveSpeed, ascendSpeed * moveSpeed, -moveDirection.y * moveSpeed);
     }
 
     /*public void OnMove() 
